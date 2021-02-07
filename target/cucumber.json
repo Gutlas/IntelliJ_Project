@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Create a new deck of cards",
+        "description": "",
+        "id": "api-testing;create-a-new-deck-of-cards",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76949201,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Input to new Deck of Cards",
+            "match": {
+              "location": "DeckofCard_Stepdef.GivenDeckofCards()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1691900900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Get the success results of Deck of Cards",
+            "match": {
+              "location": "DeckofCard_Stepdef.ThenDeckofCards()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Draw a Card",
+        "description": "",
+        "id": "api-testing;draw-a-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 124601,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input to Draw a cards",
+            "match": {
+              "location": "DeckofCard_Stepdef.GivenDrawaCards()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235192099,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Get the Draw a Cards results",
+            "match": {
+              "location": "DeckofCard_Stepdef.ThenDrawaCards()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "API Testing",
+    "description": "I want to do API Testing using RestAssured",
+    "id": "api-testing",
+    "keyword": "Feature",
+    "uri": "DeckofCards.feature"
+  }
+]
